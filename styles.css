@@ -7,33 +7,41 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .container-fluid {
   position: relative;
 }
+
 .nav {
   position: absolute;
   top: 0;
 }
+
 .navbar-brand {
   font-family: "Inknut Antiqua", serif;
   font-size: 32px;
 }
+
 .nav-link {
   font-family: "Questrial", sans-serif;
   font-size: 18px;
 }
+
 .nav-link:hover {
   color: #fbd784 !important;
   transform: translateY(-2px);
   transition: 1;
 }
+
 #account {
   font-family: "Questrial", sans-serif;
   letter-spacing: 2px;
 }
+
 #account-icon {
   color: white;
 }
+
 #account-icon:hover {
   color: #fbd784;
   transition: 1;
@@ -43,7 +51,7 @@ body {
 /* header */
 #header {
   background-image: linear-gradient(rgba(11, 29, 38, 0.3), 70%, #0b1d26),
-    url("./public/background_view.jpg");
+    url("./background_view.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -52,12 +60,14 @@ body {
   min-height: 1400px;
   position: relative;
 }
+
 #main {
   position: absolute;
   left: 15%;
   top: 18%;
   z-index: 10;
 }
+
 #orange {
   overflow: hidden;
   color: #fbd784;
@@ -65,6 +75,7 @@ body {
   font-family: "Questrial", sans-serif;
   letter-spacing: 3px;
 }
+
 #orange:before {
   background-color: FBD784;
   content: "";
@@ -74,10 +85,12 @@ body {
   vertical-align: middle;
   width: 10%;
 }
+
 h1 {
   font-size: 56px;
   font-family: "Inknut Antiqua", serif;
 }
+
 #view-more {
   font-family: "Questrial", sans-serif;
   font-size: 18px;
@@ -85,9 +98,11 @@ h1 {
   letter-spacing: 2px;
   cursor: pointer;
 }
+
 #view-more:hover {
   color: #fbd784 !important;
 }
+
 #link {
   text-decoration: none;
 }
@@ -97,12 +112,15 @@ h1 {
   font-family: "Questrial", sans-serif;
   font-size: 18px;
 }
+
 .fab {
   color: white;
 }
+
 #media {
   margin-left: 20px;
 }
+
 #social {
   position: absolute;
   top: 19%;
@@ -121,6 +139,7 @@ h1 {
   z-index: 20;
   margin-right: 30px;
 }
+
 #line1,
 #line2,
 #line3,
@@ -130,6 +149,7 @@ h1 {
   cursor: pointer;
   transform: translateX(-50%);
 }
+
 #active {
   width: 4px;
   height: 60px;
@@ -141,11 +161,13 @@ h1 {
   transform: translateX(-50%);
   transition: 0.5s;
 }
+
 #tab {
   position: absolute;
   left: -50px;
   color: whitesmoke;
 }
+
 #start {
   position: absolute;
   left: -62px;
@@ -167,6 +189,7 @@ a {
   color: white;
   text-decoration: none;
 }
+
 a:hover {
   color: #fbd784;
 }
@@ -192,9 +215,11 @@ a:hover {
   max-width: 100%;
   justify-content: center;
 }
+
 #content-one {
   padding-top: 10%;
 }
+
 #img-section-one {
   text-align: end;
 }
@@ -225,6 +250,7 @@ a:hover {
   padding-top: 10%;
   padding-left: 150px;
 }
+
 #img-section-two {
   text-align: start;
 }
@@ -236,9 +262,11 @@ a:hover {
   background-color: #0b1d26;
   width: 100%;
 }
+
 #content-three {
   padding-top: 10%;
 }
+
 #count-03 {
   font-family: "Questrial", sans-serif;
   font-size: 240px;
@@ -248,6 +276,7 @@ a:hover {
   z-index: 1;
   opacity: 0.2;
 }
+
 #img-section-three {
   text-align: end;
 }
@@ -264,15 +293,19 @@ a:hover {
 #flex-two {
   margin-left: 50px;
 }
+
 #flex-one {
   margin-right: 120px;
 }
+
 #overall {
   justify-content: end;
 }
+
 h5 {
   color: #fbd784;
 }
+
 ul {
   list-style: none;
 }
@@ -290,6 +323,7 @@ ul {
     margin-bottom: 5em;
     text-align: center !important;
   }
+
   #content-two {
     padding-left: 0;
   }
@@ -298,26 +332,32 @@ ul {
     top: 66.5%;
     left: 5% !important;
   }
+
   #count-02 {
     top: 66.5%;
     left: 5% !important;
   }
+
   #count-03 {
     top: 66.5%;
     left: 5% !important;
   }
+
   #overall {
     justify-content: start !important;
     margin-top: 50px;
   }
+
   #flex-two {
     margin: 0 !important;
   }
+
   #navbarNav,
   .navbar-toggler {
     display: none;
   }
 }
+
 @media screen and (max-width: 630px) {
   h1 {
     font-size: 40px;
